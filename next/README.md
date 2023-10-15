@@ -2,6 +2,10 @@
 
 My Next.js Starter Kit.
 
+## package manager
+
+Bun
+
 ## base dependencies
 
 - TypeScript

@@ -2,11 +2,11 @@
 
 My Next.js Starter Kit.
 
-## package manager
+## 📦 package manager
 
 Bun
 
-## base dependencies
+## 🛠 base dependencies
 
 - TypeScript
 - Tailwind CSS
@@ -15,17 +15,17 @@ Bun
 - date-fns
 - hygen
 
-## Eslint
+## 🚫 Eslint
 
 - eslint-config-next
 - eslint-config-prettier
 - eslint-plugin-sort-keys-custom-order
 
-## Prettier
+## 📝 Prettier
 
 - prettier-plugin-organize-imports
 - prettier-plugin-tailwindcss
 
-## ui
+## 🎨 ui
 
 - [shadcn/ui](https://contentlayer.dev/docs/getting-started-cddd76b7)

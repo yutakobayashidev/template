@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base"],
+  "extends": ["gitmoji", "config:base"],
   "labels": ["dependencies"],
   "packageRules": [
     {

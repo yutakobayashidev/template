@@ -18,6 +18,7 @@ Bun
 - TypeScript
 - Tailwind CSS
 - zod
+- jotai
 - Contentlayer
 - date-fns
 - hygen

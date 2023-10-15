@@ -22,6 +22,7 @@ Bun
 - Contentlayer
 - date-fns
 - hygen
+- lucide-react
 
 ## 🚫 Eslint
 

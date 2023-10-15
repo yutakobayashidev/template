@@ -1,0 +1,46 @@
+{
+  "name": "next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "hygen": "hygen"
+  },
+  "dependencies": {
+    "@radix-ui/react-alert-dialog": "^1.0.5",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "cmdk": "^0.2.0",
+    "contentlayer": "^0.3.4",
+    "date-fns": "^2.30.0",
+    "lucide-react": "^0.287.0",
+    "next": "13.5.4",
+    "next-contentlayer": "^0.3.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-sort-keys-custom-order": "^1.0.5",
+    "hygen": "^6.2.11",
+    "postcss": "^8",
+    "prettier-plugin-organize-imports": "^3.2.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}

@@ -3,10 +3,7 @@
 My Next.js Starter Kit.
 
 ```bash
-git clone https://github.com/yutakobayashidev/template.git
-cd template && cd next
-bun i
-bun dev
+npx tiged yutakobayashidev/template/next
 ```
 
 ## 📦 package manager

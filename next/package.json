@@ -15,7 +15,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
-    "cmdk": "^0.2.0",
+    "cmdk": "^1.0.0",
     "contentlayer": "^0.3.4",
     "date-fns": "^3.0.0",
     "jotai": "^2.4.3",

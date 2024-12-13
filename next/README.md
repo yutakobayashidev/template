@@ -14,9 +14,8 @@ Bun
 
 - TypeScript
 - Tailwind CSS
-- zod
+- valibot
 - jotai
-- Contentlayer
 - date-fns
 - hygen
 - lucide-react

@@ -1,13 +1,22 @@
 {
-  "typescript.tsdk": "node_modules\\typescript\\lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.quickSuggestions": {
-    "strings": "on"
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
   },
-  "editor.codeActionsOnSave": [
-    "source.addMissingImports",
-    "source.fixAll.eslint"
-  ]
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.trace.server": "verbose",
+  "eslint.useFlatConfig": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} - Page",
+    "**/app/**/layout.tsx": "${dirname} - Layout",
+    "**/component/**/index.tsx": "${dirname} - Component"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative"
 }

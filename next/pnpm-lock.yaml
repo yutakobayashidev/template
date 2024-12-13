@@ -106,8 +106,8 @@ importers:
         specifier: ^17.15.0
         version: 17.15.0(eslint@9.15.0(jiti@1.21.6))
       eslint-plugin-sort-keys-custom-order:
-        specifier: ^1.0.5
-        version: 1.0.5(eslint@9.15.0(jiti@1.21.6))
+        specifier: ^2.0.0
+        version: 2.2.1(@typescript-eslint/utils@8.18.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.15.0(jiti@1.21.6))
       eslint-plugin-tailwindcss:
         specifier: ^3.17.5
         version: 3.17.5(tailwindcss@3.4.16)
@@ -2237,11 +2237,11 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
 
-  eslint-plugin-sort-keys-custom-order@1.0.5:
-    resolution: {integrity: sha512-WdZjCY/nyOjr4GnMvQTiH225sQ0+LvmoZBB7cPkSvhbx7FxKCk3pwn8UTKquSdSRsvPiM2qoUvIOPDAEdOJdkA==}
-    engines: {node: '>=0.10.0'}
+  eslint-plugin-sort-keys-custom-order@2.2.1:
+    resolution: {integrity: sha512-K0XkfknnH6Kc62tNQDGYHlF0WOq1gNmfaVdBhRMP5lpQS7BC1lawOcT3W5A2ZiJJydcohPaUUWHFfz3e2m7SkQ==}
     peerDependencies:
-      eslint: ^8.28.0
+      '@typescript-eslint/utils': ^8.0.0
+      eslint: ^9.0.0
 
   eslint-plugin-tailwindcss@3.17.5:
     resolution: {integrity: sha512-8Mi7p7dm+mO1dHgRHHFdPu4RDTBk69Cn4P0B40vRQR+MrguUpwmKwhZy1kqYe3Km8/4nb+cyrCF+5SodOEmaow==}
@@ -6097,8 +6097,9 @@ snapshots:
       string.prototype.matchall: 4.0.11
       string.prototype.repeat: 1.0.0
 
-  eslint-plugin-sort-keys-custom-order@1.0.5(eslint@9.15.0(jiti@1.21.6)):
+  eslint-plugin-sort-keys-custom-order@2.2.1(@typescript-eslint/utils@8.18.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.15.0(jiti@1.21.6)):
     dependencies:
+      '@typescript-eslint/utils': 8.18.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)
       eslint: 9.15.0(jiti@1.21.6)
 
   eslint-plugin-tailwindcss@3.17.5(tailwindcss@3.4.16):

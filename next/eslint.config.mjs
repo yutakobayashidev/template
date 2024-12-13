@@ -7,6 +7,7 @@ import prettierPlugin from "eslint-config-prettier";
 import importPlugin from "eslint-plugin-import-x";
 import tailwindPlugin from "eslint-plugin-tailwindcss";
 import tseslint from "typescript-eslint";
+import nodePlugin from "eslint-plugin-n";
 
 export default tseslint.config(
   {
@@ -21,6 +22,7 @@ export default tseslint.config(
     plugins: {
       "import-x": importPlugin,
       "@next/next": nextPlugin,
+      n: nodePlugin,
     },
     languageOptions: {
       parser: tseslint.parser,
@@ -39,6 +41,7 @@ export default tseslint.config(
       ...nextPlugin.configs["core-web-vitals"].rules,
       ...importPlugin.flatConfigs.recommended.rules,
       "@next/next/no-img-element": "off",
+      "n/no-process-env": "error",
       "import-x/named": "off",
       "import-x/order": "error",
       "import-x/no-unresolved": "off",
@@ -62,6 +65,27 @@ export default tseslint.config(
         },
       ],
       "@typescript-eslint/consistent-type-imports": "error",
+      "@typescript-eslint/no-restricted-imports": [
+        "error",
+        {
+          paths: [
+            {
+              name: "next",
+              importNames: ["NextApiHandler", "NextApiRequest"],
+              message:
+                "これらの型は使用禁止です。代わりに `StrictNextApiHandler` と `StrictNextApiRequest` を使用してください。",
+            },
+          ],
+          patterns: [
+            {
+              group: ["next/.*"],
+              importNames: ["NextApiHandler", "NextApiRequest"],
+              message:
+                "これらの型は使用禁止です。代わりに `StrictNextApiHandler` と `StrictNextApiRequest` を使用してください。",
+            },
+          ],
+        },
+      ],
       "no-restricted-syntax": [
         "error",
         {

@@ -10,17 +10,12 @@ npx tiged yutakobayashidev/template/next
 
 - TypeScript
 - Tailwind CSS
+- lucide-react
 - valibot
 - jotai
 - date-fns
 - hygen
-- lucide-react
-
-## 🚫 Eslint
-
-- eslint-config-next
-- eslint-config-prettier
-- eslint-plugin-sort-keys-custom-order
+- vitest
 
 ## 🎨 ui
 

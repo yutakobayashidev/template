@@ -3,7 +3,7 @@
 My Next.js Starter Kit.
 
 ```bash
-npx tiged yutakobayashidev/template/next
+npx tiged yutakobayashidev/playbook/next
 ```
 
 ## 🛠 base dependencies

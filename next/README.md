@@ -6,10 +6,6 @@ My Next.js Starter Kit.
 npx tiged yutakobayashidev/template/next
 ```
 
-## 📦 package manager
-
-Bun
-
 ## 🛠 base dependencies
 
 - TypeScript
@@ -25,11 +21,6 @@ Bun
 - eslint-config-next
 - eslint-config-prettier
 - eslint-plugin-sort-keys-custom-order
-
-## 📝 Prettier
-
-- prettier-plugin-organize-imports
-- prettier-plugin-tailwindcss
 
 ## 🎨 ui
 

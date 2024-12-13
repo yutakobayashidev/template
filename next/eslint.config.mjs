@@ -8,6 +8,7 @@ import importPlugin from "eslint-plugin-import-x";
 import tailwindPlugin from "eslint-plugin-tailwindcss";
 import tseslint from "typescript-eslint";
 import nodePlugin from "eslint-plugin-n";
+import sortKeysCustomOrder from "eslint-plugin-sort-keys-custom-order";
 
 export default tseslint.config(
   {
@@ -16,6 +17,7 @@ export default tseslint.config(
   },
   js.configs.recommended,
   ...tseslint.configs.strict,
+  sortKeysCustomOrder.configs["flat/recommended"],
   ...tailwindPlugin.configs["flat/recommended"],
   {
     name: "general",

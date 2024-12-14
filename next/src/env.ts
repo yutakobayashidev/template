@@ -6,7 +6,7 @@ import * as v from "valibot";
 export const env = createEnv({
     schema: {
         private: {
-            FOO: v.pipe(v.string(), v.url()),
+            FOO: v.string()
         },
         public: {
             NEXT_PUBLIC_SITE_NAME: v.string(),
@@ -22,7 +22,7 @@ export const env = createEnv({
         },
     },
     values: {
-        FOO: process.env.API_URL,
+        FOO: process.env.FOO,
         NEXT_PUBLIC_SITE_NAME: process.env.NEXT_PUBLIC_SITE_NAME,
         NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
         NODE_ENV: process.env.NODE_ENV,

@@ -70,7 +70,7 @@ importers:
         specifier: ^0.3.0
         version: 0.3.0
       '@types/node':
-        specifier: ^20.17.10
+        specifier: 20.17.10
         version: 20.17.10
       '@types/react':
         specifier: 19.0.1
